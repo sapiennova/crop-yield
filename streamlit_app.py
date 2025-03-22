@@ -3,11 +3,11 @@ from pages import Home, Crop_Yield_Estimation, Tips, About_us, FAQs
 
 # Define pages
 PAGES = {
-    "1. Home": Home,
-    "2. Crop Yield Estimation": Crop_Yield_Estimation,
-    "3. Tips": Tips,
-    "4. About Us": About_us,
-    "5. FAQ": FAQs,
+    "Home": Home,
+    "Crop Yield Estimation": Crop_Yield_Estimation,
+    "Tips": Tips,
+    "About Us": About_us,
+    "FAQ": FAQs,
 }
 
 # Streamlit UI setup
