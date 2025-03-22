@@ -108,28 +108,6 @@ st.markdown(
         margin-top: 20px;
     }}
 
-    .btn {{
-        padding: 1rem;
-        color: #FFF;
-        display: inline-block;
-    }}
-    
-    .btn-primary {{
-        background: #ED6100;
-    }}
-    
-    .btn-primary:hover {{
-        background: #FB8500;
-    }}
-    
-    .btn-secondary {{
-        background: #B20265;
-    }}
-    
-    .btn-secondary:hover {{
-        background: #ED0286;
-    }}
-
     .text-light {{
         color: #f4f4f4;
     }}
@@ -184,10 +162,6 @@ st.markdown("""
         <p>
             Start your journey with Smart Harvest today and gain access to personalized insights that can transform your farming practices. No matter the crop or farming method, we are here to guide you every step of the way.
         </p>
-        <div class="mt">
-            <button class="btn btn-primary">Start Estimating</button>
-            <button class="btn btn-secondary">Learn More</button>
-        </div>
     </div>
 """, unsafe_allow_html=True)
 
